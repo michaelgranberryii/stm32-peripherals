@@ -232,9 +232,7 @@ static void MX_GPIO_Init(void)
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
   if(GPIO_Pin == GPIO_PIN_13) {
-	GPIO_PinState btn_val = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_5);
-	btn_val = (btn_val == GPIO_PIN_SET) ? GPIO_PIN_RESET : GPIO_PIN_SET;
-    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, btn_val);
+	HAL_GPIO_TogglePin (GPIOA, GPIO_PIN_5);
   } else {
       __NOP();
   }

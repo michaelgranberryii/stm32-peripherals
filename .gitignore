@@ -22,16 +22,16 @@ software/003-exti-led-gpio/003-exti-led-gpio/Core/*
 !software/003-exti-led-gpio/003-exti-led-gpio/Core/Src/
 
 #004
-software/004-exti-led-dma/.metadata
-software/004-exti-led-dma/dma-mem-to-mem/*
-software/004-exti-led-dma/dma-mem-to-mem/Core/*
-!software/004-exti-led-dma/dma-mem-to-mem/Core/
-!software/004-exti-led-dma/dma-mem-to-mem/Core/Src/
+software/004-dma/.metadata
+software/004-dma/dma-mem-to-mem/*
+software/004-dma/dma-mem-to-mem/Core/*
+!software/004-dma/dma-mem-to-mem/Core/
+!software/004-dma/dma-mem-to-mem/Core/Src/
 
-software/004-exti-led-dma/dma-mem-to-mem-int/*
-software/004-exti-led-dma/dma-mem-to-mem-int/Core/*
-!software/004-exti-led-dma/dma-mem-to-mem-int/Core/
-!software/004-exti-led-dma/dma-mem-to-mem-int/Core/Src/
+software/004-dma/dma-mem-to-mem-int/*
+software/004-dma/dma-mem-to-mem-int/Core/*
+!software/004-dma/dma-mem-to-mem-int/Core/
+!software/004-dma/dma-mem-to-mem-int/Core/Src/
 
 #005
 software/005-rtc-alarm/.metadata
