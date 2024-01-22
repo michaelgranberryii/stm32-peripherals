@@ -12,6 +12,10 @@ A demonstration of the STM32 HAL library:
 * STM32 RTC with HAL to set alarms.
 * STM32 WDG and distinguish between WWDG and IWDG.
 
+## Demo Video
+
+[Demo on Youtube](https://youtu.be/uOh0c5QQZWU)
+
 ## Dependencies
 
 ### Hardware
